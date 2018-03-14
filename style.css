@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'source_sans_problack';
+    src: url('fonts/sourcesanspro-black-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_problack_italic';
+    src: url('fonts/sourcesanspro-blackitalic-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('fonts/sourcesanspro-bold-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_probold_italic';
+    src: url('fonts/sourcesanspro-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_proextralight';
+    src: url('fonts/sourcesanspro-extralight-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_proXLtIt';
+    src: url('fonts/sourcesanspro-extralightitalic-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-extralightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_proitalic';
+    src: url('fonts/sourcesanspro-italic-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_prolight';
+    src: url('fonts/sourcesanspro-light-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_prolight_italic';
+    src: url('fonts/sourcesanspro-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_prosemibold';
+    src: url('fonts/sourcesanspro-semibold-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_proSBdIt';
+    src: url('fonts/sourcesanspro-semibolditalic-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-semibolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    height: 95%;
+}
+
+.container-fluid {
+    margin: 0 auto;
+    height: 100%;
+    padding: 20px 0;
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'source_sans_probold' !important;
+    margin-bottom: 30px !important;
+    margin-right: 50px;
+}
+
+p {
+    font-family: 'source_sans_prolight' !important;
+    font-size: 1.3em;
+    line-height: 1.7em;
+}
+
+a:focus, button:focus {
+    outline: none !important;
+}
+
+#drapeau {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+#divLanguage {
+    text-align: right;
+}
+
+#loha, #wgtf {
+    color: #2c77b0 !important;
+}
+
+#img-perso {
+    width: 300px;
+    height: 300px;
+    transition: box-shadow 0.3s;
+    margin-bottom: 60px;
+}
+
+#img-perso:hover {
+    -moz-box-shadow: 0px 0px 40px -10px #656565;
+    -webkit-box-shadow: 0px 0px 40px -10px #656565;
+    -o-box-shadow: 0px 0px 40px -10px #656565;
+    box-shadow: 0px 0px 40px -10px #656565;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=40);
+}
+
+.social {
+    display: none !important;
+}
+
+#linkedin, #github, #messenger, #twitter, #gmail, #phone {
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+}
+
+#angellist {
+    width: 30px !important;
+    height: 40px;
+}
+
+.btn {
+    margin-top: 10px;
+    position: relative;
+    border-radius: 5px;
+    background: #2c77b0;
+    box-shadow: 0 6px #2d66a8;
+    transition: none !important;
+    /*width: 160px;   */
+}
+
+.btn:hover {
+    top: 2px;
+    box-shadow: 0 4px #2d66a8;
+}
+
+.contact {
+    color: white !important;
+    cursor: default;
+}
+
+.contact:hover {
+    text-decoration: none;
+    color: white;
+}
